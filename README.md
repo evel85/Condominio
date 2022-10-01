@@ -34,7 +34,7 @@ funcionalidades en JavaScript.
 
 ## TEST
 Colocar todos los archivos de la carpeta "Condominio" en un Servidor de Prueba como Apache.
-Si utiliza XAMPP, ir a la carpeta xamp/htdocs/ y pegar allí la carpeta "Condominio".
+Si utiliza XAMPP, ir a la carpeta xampp/htdocs/ y pegar allí la carpeta "Condominio".
 Luego en PhpmyAdmin importar la Base de Datos "condominio.sql" que se encuentra dentro de la carpeta "bd".
 Para probarlo ingresar al index.php con las siguientes credenciales:
 Usuario: admin
@@ -71,7 +71,7 @@ be added to.
 
 ## TEST
 Put the folder "Condominio" in a tets server like Apache.
-If you are usin XAMP, go to xamp/htdocs/ and paste the folder "Condominio".
+If you are usin XAMPP, go to xampp/htdocs/ and paste the folder "Condominio".
 Later go to PhpMyadmin and import the database "condominio.sql" located on the "bd" folder.
 To test, go to index.php and loggin with:
 Usuario: admin
