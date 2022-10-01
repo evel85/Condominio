@@ -1,5 +1,6 @@
 # SOFTWARE PARA LA GESTIÓN DE CONDOMINIOS
 
+## DESCRIPCIÓN
 Esta es la base de un software para la gestión de
 condominios. En esta fase inicial se crearon los 
 módulos básicos de:
@@ -31,10 +32,17 @@ Laravel o Simphony u otros lenguajes de programación como
 Python, de igual forma podrán incorporarse algunas 
 funcionalidades en JavaScript.
 
-# ENGLISH
+## TEST
+Colocar todos los archivos de la carpeta "Condominio" en un Servidor de Prueba como Apache.
+Si utiliza XAMPP, ir a la carpeta xamp/htdocs/ y pegar allí la carpeta "Condominio".
+Luego en PhpmyAdmin importar la Base de Datos "condominio.sql" que se encuentra dentro de la carpeta "bd".
+Para probarlo ingresar al index.php con las siguientes credenciales:
+Usuario: admin
+Contraseña: admin
 
 # CONDOMINIUM MANAGEMENT SOFTWARE
 
+## DESCRIPTION
 This is the base of a Condominio Management Sosftware.
 In this initial phase, were created the basics modules of:
 
@@ -54,10 +62,17 @@ In a future, will be create the rest of the modules:
 -Property Module.
 
 ## TECHNOLOGIES
-
 The software was development using basic html and css and the
 Database connection and the logical was programming with PHP.
 
 In future versions it could be migrated to another programming
 languages like Python and some JavaScripts functionallities could
 be added to.
+
+## TEST
+Put the folder "Condominio" in a tets server like Apache.
+If you are usin XAMP, go to xamp/htdocs/ and paste the folder "Condominio".
+Later go to PhpMyadmin and import the database "condominio.sql" located on the "bd" folder.
+To test, go to index.php and loggin with:
+Usuario: admin
+Contraseña: admin
