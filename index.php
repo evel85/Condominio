@@ -12,7 +12,7 @@ if($_POST){
     if($usuario=='admin' && $contrasenia=='admin')
     {
         $_SESSION['usuario']=$usuario;
-        header("location: dashboard.php");
+        header("location: secciones/dashboard.php");
     }  
 }
 ?>
@@ -77,5 +77,5 @@ if($_POST){
     <br/>
 
 <?php
-include ("pie.html");
+include ("templates/pie.html");
 ?>
