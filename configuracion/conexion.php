@@ -3,6 +3,7 @@
 class conexion{
 
     private $servidor="localhost";
+    private $dbname="condominio";
     private $usuario="root";
     private $contrasenia="";
     private $conexion;
@@ -10,7 +11,7 @@ class conexion{
     public function __construct()
     {
         try{
-            $this->conexion=new PDO("mysql:host=$this->servidor;dbname=condominio",$this->usuario,$this->contrasenia);
+            $this->conexion=new PDO("mysql:host=$this->servidor;dbname=$this->dbname",$this->usuario,$this->contrasenia);
             $this->conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
         catch(PDOException $e){

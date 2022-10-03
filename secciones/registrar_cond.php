@@ -71,11 +71,6 @@ echo "Se registraron los siguientes datos: ";
         </table>
         </div>
 
-<div class=contenedor-but>
-    <form action="../index.php", method="post">
-    <button class="btn btn-dark" type="submit">Volver</button>
-    </form>
-</div>
 
 </body>
 </html>

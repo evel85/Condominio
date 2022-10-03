@@ -47,3 +47,11 @@ p {
     font-style: italic;
     color: whitesmoke;
 }
+
+@media only screen and (max-width: 1024px){
+    .contenedor2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+

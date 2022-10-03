@@ -34,11 +34,6 @@ echo "<h1>Registro Exitoso!!</h1><br/>";
 
 ?>
 
-<div class=contenedor-but>
-    <form action="consultar_gastos.php", method="post">
-    <button class="btn btn-dark" type="submit">Volver</button>
-    </form>
-</div>
 
 </body>
 </html>
